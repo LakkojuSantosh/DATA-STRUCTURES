@@ -1,0 +1,32 @@
+Binary tree:
+    A node can have maximum two childrens
+
+
+Binary tree Traversal:
+Types : 1.In_order     ----> left-root-right  --->(LDR)
+        2.Pre_order    ----> root-left-right  --->(DLR) 
+        2.Post_order   ----> left-right-root  --->(LRD)
+       where L = left
+             D = data
+             R = right
+
+Types of Binary Tree:
+           ----->  1.Full Binary Tree :
+                         -->All the nodes have 0 or 2 children
+                   2.Degenerate or Pathological Tree :
+                         --> Every node will have 0 or 1 children
+                   3.Skewed Binary Tree :
+                         --> Tree exists in only in one direction
+                       i.Left Skewed : exists only on left side
+                       ii.Right Skewed : exists only on right side
+                   4.Complete Binary Tree :            
+                      i.Every levle should be full or complete
+                      ii.In last level if it is incomplete , nodes should be present at extreme left side
+                   5.Perfect Binary Tree :
+                         --> All internal nodes which has two children and leaf nodes should be at same level
+                   
+                   6.Balanced Binary tree :
+                         --> For all the nodes height of left sub tree - height of right sub tree can be 0 or 1 then it is called as balanced tree
+                   7.Binary Search Tree :
+                         --> All the left side elements should be lesser than its parent
+                         --> All the right side elements should be greater than its parent
